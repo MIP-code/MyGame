@@ -20,19 +20,6 @@
 
 <body style="margin: 0px; background: #0e0e0e; height: 100%; color: #FFFFFF">
 
-<audio id="Myusic">
-
-<source src="Music.mp3" type="audio/mpeg" />
-  
-</audio>
-<script>
-var x = document.getElementById("Muysic");
-x.autoplay = true;
-x.load();
-</script>
-
-<h1 style="background-color:red;">Quest: </h1>
-<h2 style="color:gold;">Help the soul to escape!</h2>
 	
 	<p> Robn a lost soul in the darkness trying to escape the living hell to get back to his body, and you are the only one capable to help him! </p>
 	<hr>
@@ -50,7 +37,7 @@ x.load();
 	<p> What should you do now?</p>
 	
 	<ol>
-  <li> <a href="Continue_page.html"> Find corpse </a> </li>
+
   <li>  <a href="SoulStone.html"> Use soulstone </a> </li>
   <li>  <a href="Leave_page.html"> Leave the place </a> </li>
  
