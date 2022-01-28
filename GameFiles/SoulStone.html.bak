@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> SoulStone </title>
+	
+</head>
+<body style="margin: 0px; background: #0e0e0e; height: 100%; color: #FFFFFF">
+	
+	<p> You have used the soulstone! </p>
+	
+	<ul>
+	<li> <a href="CauseOfDeath.html"> "How did you die?" </a> </li>
+	<li> <a href="PlaceOfDeath.html"> "Where did you die?" </a> </li>
+	<li> <a href="Escape.html"> "Nevermind" </a> </li>
+	
+	</ul>
+	
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> SoulStone </title>
+	<style>
+		a:visited {
+			color: white;
+		}
+		
+		a {
+			color: yellow;
+		}
+		
+	</style>
+</head>
+<body style="margin: 0px; background: #0e0e0e; height: 100%; color: #FFFFFF">
+	
+	<p> You: Where did you die? </p>
+	<p> Robn: You will find me in the fourth floor, in one of the cells. </p>
+	<p> You: Ok. I am on my way..</p>
+	
+	
+	<ul>
+	<li> <a href="Continue_page.html"> Corpse found </a> </li>
+	</ul>
+
+	
+</body>
+</html>

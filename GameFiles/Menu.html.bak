@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+#main-title{
+text-align:center;
+}
+.grid_item {
+        
+        padding: 50px;
+        font-size: 20px;
+        text-align: center;
+      }
+.grid_container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #000000;
+        padding: 0px;
+      }
+</style>
+<head>
+<title> Menu </title>
+</head>
+<body style="margin: 0px; background: #0e0e0e; height: 100%; color: #FFFFFF">
+
+
+<div class="grid_container">
+      <div class="grid_item">1</div>
+      <div class="grid_item"><h1 id="main-title" > Name of the game </h1></div>
+      <div class="grid_item">3</div>
+      <div class="grid_item">4</div>
+      <div class="grid_item">5</div>
+      <div class="grid_item">6</div>
+      <div class="grid_item">7</div>
+      <div class="grid_item"><button><a href="Escape.html"> Start the game </a></button></div>
+      <div class="grid_item">9</div>
+    </div>
+
+	
+
+	
+
+</body>
+</html>
