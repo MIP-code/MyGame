@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Continuation... </title>
+</head>
+<body style="margin: 0px; background: #0e0e0e; height: 100%; color: #FFFFFF">
+
+<p> Corpse found!!!!</p>
+<ul>
+	
+	<dl>
+  <dt><a href="FirstOption.html"> 1-Resurrect Robn </a> </dt>
+  <dd>- Robn gets his soul back</dd>
+  <dt><a href="SecondOption.html"> 2-Burn his soul of existence  </a></dt>
+  <dd>- Erase Robn from realality to let him rest peacfully</dd>
+  <dt> <a href="Leave_page.html"> 3-Come back later  </a></dt>
+  <dd>-  </dd>
+</dl>
+
+	</ul>
+	
+	<img src="blue-smoke-waves-black-background_23-2148210954.jpg" >
+	
+
+</body>
+</html>

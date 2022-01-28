@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> FirstOption </title>
+</head>
+<body style="margin: 0px; background: #0e0e0e; height: 100%; color: #FFFFFF">
+
+	<p> Quest update: </p>
+	<p> You choose to help Robn and let him live his life agian.
+	
+	<h1> You gain:</h1>
+	<ol>
+  <li><p style="color:gold;">  5000 exp  </li>
+  <li>  <p style="color:gold;"> 25k gold  </li>
+   <li> <p style="color:gold;"> Sword Of The Abyss  </li>
+   <p> You also gained the trait Humanity</p>
+	<p style="color:green;">+55 humanity increased.</p>
+</ol>
+	
+	
+	
+
+</body>
+</html>
