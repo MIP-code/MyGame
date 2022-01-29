@@ -1,29 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title> SoulStone </title>
-	<style>
-		a:visited {
-			color: white;
-		}
-		
-		a {
-			color: yellow;
-		}
-		
-	</style>
-</head>
-<body style="margin: 0px; background: #0e0e0e; height: 100%; color: #FFFFFF">
-	
-	<p> You: Where can i find your corpse? </p>
-	<p> Robn: You will find me in the fourth floor, in one of the cells. </p>
-	<p> You: Ok. I am on my way..</p>
-	
-	
-	<ul>
-	<li> <a href="Continue_page.html"> Corpse found </a> </li>
-	</ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <style>
+      .choices {
+        margin-left: 0px;
+        text-align: center;
+        lis
+      }
+      .choices_box {
+        text-align: center;
+        color: darkgrey;
+        border: 3px white solid;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 5px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #Img_Main {
+        border: 3px solid darkgray;
+        border-radius: 5%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .grid_container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 100px;
+        padding-bottom: 70px;
+        background-color: black;
+        border-radius: 5px;
+        border: 2px white solid;
+      }
+      .grid_item {
+        font-size: 15px;
+        text-align: center;
 
-	
-</body>
+        padding: 0px;
+      }
+      .questText {
+        color: darkgrey;
+        font-size: 20px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 5px;
+        padding: 3px;
+      }
+      .item_box {
+        border: 2px solid black;
+        background-color: #242a38;
+        height: 350px;
+        width: 200px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: 200px;
+        margin-top: 80px;
+      }
+      body {
+        background-image: url("game_background.jpeg");
+        background-size: cover;
+      }
+      a:visited {
+        color: white;
+      }
+      a:link {
+        color: white;
+      }
+      a:hover {
+        color: goldenrod;
+      }
+      a{
+        margin-bottom: 40px;
+      }
+    </style>
+</head>
+  <body>
+    <div class="grid_container">
+      <div class="grid_item">1</div>
+      <div class="grid_item">
+        <div class="questText">
+          <p>You: Where can i find your corpse?</p>
+          <p style="color: lightblue">
+            Robn: You will find me in the fourth floor, in one of the cells.
+          </p>
+          <p>You: Ok. I am on my way..</p>
+          <hr />
+        </div>
+      </div>
+      <div class="grid_item">3</div>
+      <div class="grid_item">4</div>
+      <div class="grid_item">
+        <div class="main_content">
+          <img id="Img_Main" width="25%" height="25%" src="stone.jpg" />
+          <div class="choices_box">
+            <div class="choices">
+              <a href="Continue_page.html"> Corpse found </a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_item">6</div>
+      <div class="grid_item">7</div>
+      <div class="grid_item">8</div>
+      <div class="grid_item">9</div>
+    </div>
+  </body>
 </html>
