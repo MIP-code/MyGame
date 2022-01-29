@@ -1,26 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title> Continuation... </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <style>
+      .choices {
+        margin-left: 0px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .choices_box {
+        color: darkgrey;
+        border: 3px white solid;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 5px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #Img_Main {
+        border: 3px solid darkgray;
+        border-radius: 5%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .grid_container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 100px;
+        padding-bottom: 70px;
+        background-color: black;
+        border-radius: 5px;
+        border: 2px white solid;
+      }
+      .grid_item {
+        font-size: 15px;
+        text-align: center;
+
+        padding: 0px;
+      }
+      .questText {
+        color: darkgrey;
+        font-size: 20px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 5px;
+        padding: 3px;
+      }
+      .item_box {
+        border: 2px solid black;
+        background-color: #242a38;
+        height: 350px;
+        width: 200px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: 200px;
+        margin-top: 80px;
+      }
+      body {
+        background-image: url("game_background.jpeg");
+        background-size: cover;
+      }
+      a:visited {
+        color: white;
+      }
+      a:link {
+        color: white;
+      }
+      a:hover {
+        color: goldenrod;
+      }
+      a {
+        margin-bottom: 20px;
+      }
+    </style>
 </head>
-<body style="margin: 0px; background: #0e0e0e; height: 100%; color: #FFFFFF">
-
-<p> You have found the corpse!</p>
-<ul>
-	
-	<dl>
-  <dt><a href="FirstOption.html"> A- Resurrect Robn </a> </dt>
-  <dd>- Satisfy Robn's wish and get his soul back to his corpse</dd>
-  <dt><a href="SecondOption.html"> B- Burn his soul of existence  </a></dt>
-  <dd>- Erase Robn from realality to let him rest peacfully</dd>
-  <dt> <a href="Escape.html"> C- Come back later  </a></dt>
-  <dd>  </dd>
-</dl>
-
-	</ul>
-	
-	<img src="blue-smoke-waves-black-background_23-2148210954.jpg" >
-	
-
-</body>
+  <body>
+    <div class="grid_container">
+      <div class="grid_item">1</div>
+      <div class="grid_item">
+        <div class="questText">
+          <p>You found his remains</p>
+          <p style="color: lightblue">
+            Robn: Yes, that's my body, Place the stone in my right eye Quick !
+          </p>
+          <hr />
+        </div>
+      </div>
+      <div class="grid_item">3</div>
+      <div class="grid_item">4</div>
+      <div class="grid_item">
+        <div class="main_content">
+          <img id="Img_Main" width="25%" height="25%" src="skull.jpg" />
+          <div class="choices_box">
+            <div class="choices">
+              <ol>
+                <li><a href="Rez.html">Resurrect Robin </a></li>
+                <p>- Satisfy Robin's wish and get his soul back to his corpse</p>
+                <li>
+                  <a href="Shatter.html">Shatter the soul stone</a>
+                </li>
+                <p>- Erase Robin from realality to let him rest peacfully</p>
+                <li><a href="PlaceOfDeath.html"> Come back later </a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_item">6</div>
+      <div class="grid_item">7</div>
+      <div class="grid_item">8</div>
+      <div class="grid_item">9</div>
+    </div>
+  </body>
 </html>

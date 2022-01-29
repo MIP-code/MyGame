@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -79,6 +80,118 @@
       a {
         margin-bottom: 20px;
       }
+      @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Montserrat Medium";
+  max-width: 40ch;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
+  animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(10) {
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(11) {
+  animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(12) {
+  animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(13) {
+  animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(14) {
+  animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(15) {
+  animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(16) {
+  animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(17) {
+  animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(18) {
+  animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
     </style>
 </head>
   <body>
@@ -86,21 +199,27 @@
       <div class="grid_item">1</div>
       <div class="grid_item">
         <div class="questText">
-          <p>You placed the stone in his right eye</p>
-          <p style="color: lightblue">
+          <p><span>
+
+           Placed the stone in his right eye</p></span>  
+          <p style="color: lightblue"> <span>
             Robin: "Ohhh finally, I have been waiting this moment for Decades
             !!!"
           </p>
-          <p>You: "I hope you finally find peace."</p>
-          <p style="color: lightblue">
-            Robin: "I can’t live in this body! I envy you hunter... your body is
+        </span>
+          <p> <span> "I hope you finally find peace."</p></span>
+          <p style="color: lightblue"><span>
+            Robin: "I can’t live in this body! I envy you traveler... your body is
             flesh and bones while mine is only bones. I shall take your body
             instead."
           </p>
-          <p>
+        </span>
+          <p><span>
             You suddenly feel pain in your head, and open your eyes and see him
             in your body trying to escape,
           </p>
+        </span>
+      
         </div>
       </div>
       <div class="grid_item">3</div>
@@ -112,13 +231,13 @@
             <div class="choices">
               <ol>
                 <li>
-                  <a href="FirstOption.html"
+                  <a href="Throw_sword.html"
                     >Try to stop Robin by throwing some object next to you.</a
                   >
                 </li>
 
                 <li>
-                  <a href="SecondOption.html">Try to catch him</a>
+                  <a href="Catch.html">Try to catch him</a>
                 </li>
               </ol>
             </div>
